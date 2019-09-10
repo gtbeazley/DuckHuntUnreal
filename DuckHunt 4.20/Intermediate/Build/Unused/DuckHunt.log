@@ -1,0 +1,10 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Compiling game modules for hot reload
+  Building 3 actions with 8 processes...
+    [1/3] Duck.cpp
+    [2/3] UE4Editor-DuckHunt-7032.lib
+       Creating library C:\Users\s181813\Documents\GitHub\DuckHuntUnreal\DuckHunt 4.20\Intermediate\Build\Win64\UE4Editor\Development\DuckHunt\UE4Editor-DuckHunt-7032.lib and object C:\Users\s181813\Documents\GitHub\DuckHuntUnreal\DuckHunt 4.20\Intermediate\Build\Win64\UE4Editor\Development\DuckHunt\UE4Editor-DuckHunt-7032.exp
+    [3/3] UE4Editor-DuckHunt-7032.dll
+       Creating library C:\Users\s181813\Documents\GitHub\DuckHuntUnreal\DuckHunt 4.20\Intermediate\Build\Win64\UE4Editor\Development\DuckHunt\UE4Editor-DuckHunt-7032.suppressed.lib and object C:\Users\s181813\Documents\GitHub\DuckHuntUnreal\DuckHunt 4.20\Intermediate\Build\Win64\UE4Editor\Development\DuckHunt\UE4Editor-DuckHunt-7032.suppressed.exp
+  Deploying DuckHuntEditor Win64 Development...
+  Total build time: 2.96 seconds (Parallel executor: 1.79 seconds)
