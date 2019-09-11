@@ -21,23 +21,13 @@ APlayerPawn::APlayerPawn()
 
 	BoxCollision = CreateDefaultSubobject<UBoxComponent>("BoxCollision");
 
-	CollisionRay = CreateDefaultSubobject<USpringArmComponent>("CameraSpringArm");
-	CollisionRay->SetupAttachment(BoxCollision);
-	CollisionRay->TargetArmLength = -10000.0f;
-
-	CollisionMesh = CreateDefaultSubobject<UStaticMeshComponent>("Collision");
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> temp(TEXT("/Engine/BasicShapes/Sphere.Sphere"));
-	CollisionMesh->SetStaticMesh(temp.Object);
-	CollisionMesh->SetupAttachment(CollisionRay); 
-	CollisionMesh->SetCollisionResponseToChannel(ECC_Visibility, ECR_Overlap);
+	DestinationMarker = CreateDefaultSubobject<UStaticMeshComponent>("DestinationMarker");
 
 	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
 	Camera->SetupAttachment(BoxCollision);
 
 	SetRootComponent(BoxCollision);
 
-	CollisionMesh->OnComponentBeginOverlap.AddDynamic(this, &APlayerPawn::OnBeginOverlap);
-	CollisionMesh->OnComponentEndOverlap.AddDynamic(this, &APlayerPawn::OnEndOverlap); 
 	bUseControllerRotationPitch = true;
 	bUseControllerRotationYaw = true;
 }
@@ -65,32 +55,10 @@ void APlayerPawn::Interact()
 	m_shotTimer = 1.0f;
 }
 
-void APlayerPawn::OnEndOverlap(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex)
-{
-	Bird = nullptr;
-	m_duringOverlap = false;
-}
-
-void APlayerPawn::OnBeginOverlap(UPrimitiveComponent * OverlappedComp, AActor * OtherActor,
-	UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
-{
-	Bird = OtherActor;
-	m_duringOverlap = true;
-}
-
 // Called every frame
 void APlayerPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	if (m_duringOverlap)
-	{
-		if (Bird != nullptr && Bird->IsA(ADuck::StaticClass()))
-		{
-			Bird->Destroy();
-		}
-	}
-	m_shotTimer -= DeltaTime;
 
 	if(m_shotTimer <= 0.0f && m_shot)
 		m_shot = false;

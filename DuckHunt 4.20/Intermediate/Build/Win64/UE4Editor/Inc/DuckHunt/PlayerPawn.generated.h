@@ -8,72 +8,13 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UPrimitiveComponent;
-class AActor;
-struct FHitResult;
 #ifdef DUCKHUNT_PlayerPawn_generated_h
 #error "PlayerPawn.generated.h already included, missing '#pragma once' in PlayerPawn.h"
 #endif
 #define DUCKHUNT_PlayerPawn_generated_h
 
-#define DuckHunt_4_20_Source_DuckHunt_PlayerPawn_h_12_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execOnBeginOverlap) \
-	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
-		P_GET_UBOOL(Z_Param_bFromSweep); \
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnBeginOverlap(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execOnEndOverlap) \
-	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnEndOverlap(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex); \
-		P_NATIVE_END; \
-	}
-
-
-#define DuckHunt_4_20_Source_DuckHunt_PlayerPawn_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execOnBeginOverlap) \
-	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
-		P_GET_UBOOL(Z_Param_bFromSweep); \
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnBeginOverlap(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execOnEndOverlap) \
-	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->OnEndOverlap(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex); \
-		P_NATIVE_END; \
-	}
-
-
+#define DuckHunt_4_20_Source_DuckHunt_PlayerPawn_h_12_RPC_WRAPPERS
+#define DuckHunt_4_20_Source_DuckHunt_PlayerPawn_h_12_RPC_WRAPPERS_NO_PURE_DECLS
 #define DuckHunt_4_20_Source_DuckHunt_PlayerPawn_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerPawn(); \
@@ -118,9 +59,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerPawn); \
 
 #define DuckHunt_4_20_Source_DuckHunt_PlayerPawn_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__BoxCollision() { return STRUCT_OFFSET(APlayerPawn, BoxCollision); } \
-	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(APlayerPawn, Camera); } \
-	FORCEINLINE static uint32 __PPO__CollisionRay() { return STRUCT_OFFSET(APlayerPawn, CollisionRay); } \
-	FORCEINLINE static uint32 __PPO__CollisionMesh() { return STRUCT_OFFSET(APlayerPawn, CollisionMesh); }
+	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(APlayerPawn, Camera); }
 
 
 #define DuckHunt_4_20_Source_DuckHunt_PlayerPawn_h_9_PROLOG

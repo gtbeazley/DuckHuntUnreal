@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeDuckHunt_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/DuckHunt",
 				PKG_CompiledIn | 0x00000000,
-				0x2E222EA8,
-				0x82D5D660,
+				0xB7172DF6,
+				0x6A4E8D10,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

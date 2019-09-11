@@ -20,11 +20,12 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	TArray< AActor*> Nodes;
-	AActor* tarNode = nullptr;
 	UPROPERTY(EditAnywhere, Category = "Components")
 		class UStaticMeshComponent* StaticMesh;
 
+private:
+	TArray <AActor*> Nodes;
+	AActor* tarNode = nullptr;
 	const float m_speed = 5;
 public:	
 	// Called every frame

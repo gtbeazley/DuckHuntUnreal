@@ -29,23 +29,13 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category = "Components")
 		class UCameraComponent* Camera;
-
-	UPROPERTY(EditAnywhere, Category = "Components")
-		class USpringArmComponent* CollisionRay;
-
-	UPROPERTY(EditAnywhere, Category = "Components")
-		UStaticMeshComponent* CollisionMesh;
-
-	UFUNCTION()
-		void OnEndOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
-			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
-	UFUNCTION()
-		void OnBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
-			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 	
+	UPROPERTY(EditAnywhere, Category = "Components")
+		class UStaticMeshComponent* DestinationMarker;
+
 	bool m_duckHighlighted = false;
 	bool m_shot = false;
-	bool m_duringOverlap = false;
+
 	float m_shotTimer = 0.0f;
 	AActor* Bird = nullptr;
 public:	
