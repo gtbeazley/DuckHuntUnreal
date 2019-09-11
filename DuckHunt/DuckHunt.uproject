@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{A243EB05-491A-BEA9-5B12-2A829A585499}",
+	"EngineAssociation": "{7291EFF2-4903-DBBB-0273-13A80DE64F65}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -9,7 +9,8 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine",
+				"UMGEditor"
 			]
 		}
 	]

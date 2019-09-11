@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DuckHunt.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D7204B66-9C29-4255-BDE3-B0EFEBD5D9A1}</UniqueIdentifier>
+      <UniqueIdentifier>{FE1BE7B3-4919-4697-8155-FCA59D141DCA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DuckHunt.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D31D14A2-EE5D-490C-A240-4FFBE5413943}</UniqueIdentifier>
+      <UniqueIdentifier>{97CFADF5-1EF8-4BBD-9903-6B99FB1385A3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,24 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\DuckHunt">
-      <UniqueIdentifier>{80E4859A-3FAD-49E9-ADD8-72CA5D0B7419}</UniqueIdentifier>
+      <UniqueIdentifier>{A1BBE718-1DE0-4023-9AD3-969C458E9329}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\DuckHunt\AIPathNode.cpp">
+      <Filter>Source\DuckHunt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DuckHunt\AIPathNode.h">
+      <Filter>Source\DuckHunt</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DuckHunt\Duck.cpp">
+      <Filter>Source\DuckHunt</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DuckHunt\Duck.h">
+      <Filter>Source\DuckHunt</Filter>
+    </ClInclude>
     <None Include="..\..\Source\DuckHunt\DuckHunt.Build.cs">
       <Filter>Source\DuckHunt</Filter>
     </None>
@@ -41,26 +56,20 @@
     <ClInclude Include="..\..\Source\DuckHunt\DuckHuntGameModeBase.h">
       <Filter>Source\DuckHunt</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\DuckHunt\PlayerPawn.h">
-      <Filter>Source\DuckHunt</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\DuckHunt\Duck.h">
-      <Filter>Source\DuckHunt</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\DuckHunt\AIPathNode.h">
-      <Filter>Source\DuckHunt</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\DuckHunt\PlayerPawn.cpp">
       <Filter>Source\DuckHunt</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\DuckHunt\Duck.cpp">
+    <ClInclude Include="..\..\Source\DuckHunt\PlayerPawn.h">
       <Filter>Source\DuckHunt</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\DuckHunt\AIPathNode.cpp">
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\DuckHunt\PlayerHUD.h">
+      <Filter>Source\DuckHunt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\DuckHunt\PlayerHUD.cpp">
       <Filter>Source\DuckHunt</Filter>
     </ClCompile>
   </ItemGroup>

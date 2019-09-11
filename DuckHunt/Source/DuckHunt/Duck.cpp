@@ -18,7 +18,7 @@ ADuck::ADuck()
 
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> temp(TEXT("/Engine/BasicShapes/Sphere.Sphere"));
 	StaticMesh->SetStaticMesh(temp.Object);
-	StaticMesh->SetCollisionResponseToChannel(ECC_Visibility, ECR_Overlap);
+
 	SetRootComponent(StaticMesh);
 	
 }

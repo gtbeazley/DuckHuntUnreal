@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define DUCKHUNT_DuckHuntGameModeBase_generated_h
 
-#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_RPC_WRAPPERS
-#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_RPC_WRAPPERS
+#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesADuckHuntGameModeBase(); \
 	friend struct Z_Construct_UClass_ADuckHuntGameModeBase_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(ADuckHuntGameModeBase)
 
 
-#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_INCLASS \
+#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesADuckHuntGameModeBase(); \
 	friend struct Z_Construct_UClass_ADuckHuntGameModeBase_Statics; \
@@ -33,9 +33,9 @@ public: \
 	DECLARE_SERIALIZER(ADuckHuntGameModeBase)
 
 
-#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ADuckHuntGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API ADuckHuntGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ADuckHuntGameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ADuckHuntGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ADuckHuntGameModeBase); \
@@ -46,9 +46,7 @@ private: \
 public:
 
 
-#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ADuckHuntGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ADuckHuntGameModeBase(ADuckHuntGameModeBase&&); \
@@ -56,29 +54,29 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ADuckHuntGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ADuckHuntGameModeBase); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ADuckHuntGameModeBase)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ADuckHuntGameModeBase)
 
 
-#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_12_PROLOG
-#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_PRIVATE_PROPERTY_OFFSET
+#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_11_PROLOG
+#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_RPC_WRAPPERS \
-	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_INCLASS \
-	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_PRIVATE_PROPERTY_OFFSET \
+	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_RPC_WRAPPERS \
+	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_INCLASS \
+	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_GENERATED_BODY \
+#define DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_PRIVATE_PROPERTY_OFFSET \
+	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_INCLASS_NO_PURE_DECLS \
+	DuckHunt_Source_DuckHunt_DuckHuntGameModeBase_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

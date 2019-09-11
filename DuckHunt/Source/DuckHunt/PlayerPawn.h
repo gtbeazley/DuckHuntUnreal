@@ -31,27 +31,17 @@ protected:
 		class UCameraComponent* Camera;
 
 	UPROPERTY(EditAnywhere, Category = "Components")
-		class USpringArmComponent* CollisionRay;
-
-	UPROPERTY(EditAnywhere, Category = "Components")
-		UStaticMeshComponent* CollisionMesh;
-
-	UFUNCTION()
-		void OnEndOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
-			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
-	UFUNCTION()
-		void OnBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
-			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+		UStaticMeshComponent* ShotMarker;
 	
-	bool m_duckHighlighted = false;
-	bool m_shot = false;
-	bool m_duringOverlap = false;
-	float m_shotTimer = 0.0f;
-	AActor* Bird = nullptr;
+	bool bShot = false;
+	float fShotTimer = 0.0f;
+
 public:	
 	float BulletCount = 3;
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	bool ComponentTraceForward(FHitResult &OutHit);
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
