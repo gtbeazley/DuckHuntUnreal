@@ -35,7 +35,7 @@ protected:
 	
 	bool bShot = false;
 	float fShotTimer = 0.0f;
-
+	ADuck HighlightedDuck = nullptr;
 public:	
 	float BulletCount = 3;
 	// Called every frame

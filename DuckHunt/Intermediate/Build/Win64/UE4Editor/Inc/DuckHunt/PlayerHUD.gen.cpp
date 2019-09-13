@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -51,13 +51,17 @@ void EmptyLinkFunctionForGeneratedCodePlayerHUD() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_APlayerHUD_Statics::ClassParams = {
 		&APlayerHUD::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x009002ACu,
-		nullptr, 0,
-		nullptr, 0,
 		"Game",
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x009002ACu,
 		METADATA_PARAMS(Z_Construct_UClass_APlayerHUD_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_APlayerHUD_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_APlayerHUD()
@@ -69,7 +73,11 @@ void EmptyLinkFunctionForGeneratedCodePlayerHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerHUD, 1388691838);
+	IMPLEMENT_CLASS(APlayerHUD, 4012710711);
+	template<> DUCKHUNT_API UClass* StaticClass<APlayerHUD>()
+	{
+		return APlayerHUD::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerHUD(Z_Construct_UClass_APlayerHUD, &APlayerHUD::StaticClass, TEXT("/Script/DuckHunt"), TEXT("APlayerHUD"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerHUD);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,3 @@
+C:\Users\hi_it\OneDrive\Documents\GitHub\AI4Games\DuckHuntUnreal\DuckHunt\Intermediate\Build\Win64\UE4Editor\Development\DuckHunt\Definitions.DuckHunt.h
+C:\Users\hi_it\OneDrive\Documents\GitHub\AI4Games\DuckHuntUnreal\DuckHunt\Source\DuckHunt\AIPathNode.h
+C:\Users\hi_it\OneDrive\Documents\GitHub\AI4Games\DuckHuntUnreal\DuckHunt\Intermediate\Build\Win64\UE4Editor\Inc\DuckHunt\AIPathNode.generated.h
