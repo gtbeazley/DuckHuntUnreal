@@ -1,0 +1,984 @@
+﻿Log file open, 09/11/19 15:30:05
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DuckHunt
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.385806
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.122s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 770
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.09.11-05.30.05:421][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.11-05.30.05:421][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.11-05.30.05:437][  0]LogHAL: Display: Platform has ~ 32 GB [34241368064 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.09.11-05.30.05:437][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.09.11-05.30.05:437][  0]LogInit: Going up to parent DeviceProfile []
+[2019.09.11-05.30.05:451][  0]LogInit: Computer: SYD-19F592
+[2019.09.11-05.30.05:451][  0]LogInit: User: s181813
+[2019.09.11-05.30.05:451][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.09.11-05.30.05:451][  0]LogInit: High frequency timer resolution =3.312644 MHz
+[2019.09.11-05.30.05:451][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.09.11-05.30.05:451][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.11-05.30.05:451][  0]LogMemory: Process Physical Memory: 100.82 MB used, 100.82 MB peak
+[2019.09.11-05.30.05:451][  0]LogMemory: Process Virtual Memory: 90.95 MB used, 90.95 MB peak
+[2019.09.11-05.30.05:451][  0]LogMemory: Physical Memory: 6175.76 MB used,  26479.36 MB free, 32655.11 MB total
+[2019.09.11-05.30.05:451][  0]LogMemory: Virtual Memory: 4641.04 MB used,  26479.36 MB free, 134217728.00 MB total
+[2019.09.11-05.30.05:561][  0]LogInit: Using OS detected language (en-US).
+[2019.09.11-05.30.05:561][  0]LogInit: Using OS detected locale (en-US).
+[2019.09.11-05.30.05:562][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.09.11-05.30.05:945][  0]LogStreaming: Display: Took  0.385s to InitEngineTextLocalization.
+[2019.09.11-05.30.05:946][  0]LogInit: Setting process to per monitor DPI aware
+[2019.09.11-05.30.05:996][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.09.11-05.30.05:996][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.09.11-05.30.06:175][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.11-05.30.06:175][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.11-05.30.06:248][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2019.09.11-05.30.06:248][  0]LogD3D11RHI:       2007/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.09.11-05.30.06:271][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.09.11-05.30.06:271][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.09.11-05.30.06:275][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.11-05.30.06:275][  0]LogD3D11RHI:       0/0/16327 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.11-05.30.06:275][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.11-05.30.06:282][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.11-05.30.06:282][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2019.09.11-05.30.06:282][  0]LogWindows: EnumDisplayDevices:
+[2019.09.11-05.30.06:282][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2019.09.11-05.30.06:283][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:1)
+[2019.09.11-05.30.06:283][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2019.09.11-05.30.06:283][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2019.09.11-05.30.06:284][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.09.11-05.30.06:284][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.09.11-05.30.06:284][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.09.11-05.30.06:285][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.09.11-05.30.06:285][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2019.09.11-05.30.06:285][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.09.11-05.30.06:285][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.09.11-05.30.06:285][  0]LogRHI: Texture pool is 1404 MB (70% of 2007 MB)
+[2019.09.11-05.30.06:328][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.11-05.30.06:346][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.09.11-05.30.06:348][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Intermediate/Shaders/WorkingDirectory/5780/).
+[2019.09.11-05.30.06:349][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s181813/AppData/Local/Temp/UnrealShaderWorkingDir/D4366F22455CD5D8334EDFADA9CC9B08/'.
+[2019.09.11-05.30.06:562][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.09.11-05.30.06:577][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.09.11-05.30.06:592][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.09.11-05.30.06:607][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.09.11-05.30.06:623][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.09.11-05.30.06:638][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.09.11-05.30.06:653][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.09.11-05.30.06:667][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.09.11-05.30.06:675][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.09.11-05.30.06:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.11-05.30.06:760][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.09.11-05.30.06:829][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.09.11-05.30.06:829][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.09.11-05.30.06:857][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.09.11-05.30.06:857][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.09.11-05.30.06:871][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.09.11-05.30.06:887][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.09.11-05.30.06:903][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.09.11-05.30.06:917][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.09.11-05.30.06:930][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.09.11-05.30.06:930][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.11-05.30.07:035][  0]LogXGEController: Cleaning working directory: C:/Users/s181813/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.09.11-05.30.07:035][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.09.11-05.30.07:035][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.09.11-05.30.07:035][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.11-05.30.07:688][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.11-05.30.07:740][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/s181813/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.09.11-05.30.07:740][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s181813/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.09.11-05.30.07:740][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.11-05.30.07:740][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.11-05.30.07:740][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.11-05.30.07:740][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.11-05.30.07:753][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.11-05.30.07:766][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s181813/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.11-05.30.07:766][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.09.11-05.30.07:766][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.09.11-05.30.07:783][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.11-05.30.07:785][  0]LogSlate: Using FreeType 2.6.0
+[2019.09.11-05.30.07:786][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.11-05.30.07:855][  0]LogAssetRegistry: FAssetRegistry took 0.0286 seconds to start up
+[2019.09.11-05.30.08:166][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.11-05.30.08:304][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.09.11-05.30.08:311][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.09.11-05.30.08:312][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.09.11-05.30.08:312][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.11-05.30.08:312][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.09.11-05.30.08:327][  0]LogNetVersion: DuckHunt 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1679371872)
+[2019.09.11-05.30.08:811][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.119107 seconds
+[2019.09.11-05.30.08:818][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.09.11-05.30.08:818][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.09.11-05.30.08:818][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.11-05.30.09:688][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.11-05.30.09:705][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.11-05.30.09:906][  0]SourceControl: Source control is disabled
+[2019.09.11-05.30.09:906][  0]SourceControl: Source control is disabled
+[2019.09.11-05.30.09:909][  0]SourceControl: Source control is disabled
+[2019.09.11-05.30.09:912][  0]SourceControl: Source control is disabled
+[2019.09.11-05.30.10:161][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.11-05.30.10:240][  0]LogOcInput: OculusInput pre-init called
+[2019.09.11-05.30.10:305][  0]LogEngine: Initializing Engine...
+[2019.09.11-05.30.10:306][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.11-05.30.10:308][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.09.11-05.30.10:308][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.09.11-05.30.10:308][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.09.11-05.30.10:308][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.09.11-05.30.10:497][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.09.11-05.30.10:512][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.11-05.30.10:528][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.11-05.30.10:565][  0]LogInit: FAudioDevice initialized.
+[2019.09.11-05.30.10:565][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.09.11-05.30.10:640][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/s181813/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.09.11-05.30.10:649][  0]LogInit: Texture streaming: Enabled
+[2019.09.11-05.30.10:673][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.11-05.30.10:686][  0]LogInit: Transaction tracking system initialized
+[2019.09.11-05.30.10:718][  0]BlueprintLog: New page: Editor Load
+[2019.09.11-05.30.10:831][  0]LocalizationService: Localization service is disabled
+[2019.09.11-05.30.11:109][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.11-05.30.11:109][  0]LogCook: Display: Mobile HDR setting 0
+[2019.09.11-05.30.11:110][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/' took 0.01s
+[2019.09.11-05.30.11:110][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.09.11-05.30.11:110][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.09.11-05.30.11:110][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.09.11-05.30.11:110][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.09.11-05.30.11:110][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.09.11-05.30.11:271][  0]SourceControl: Source control is disabled
+[2019.09.11-05.30.11:271][  0]Cmd: MAP LOAD FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.11-05.30.11:271][  0]LightingResults: New page: Lighting Build
+[2019.09.11-05.30.11:274][  0]MapCheck: New page: Map Check
+[2019.09.11-05.30.11:274][  0]LightingResults: New page: Lighting Build
+[2019.09.11-05.30.11:505][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.11-05.30.11:541][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.11-05.30.11:562][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.11-05.30.11:612][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.808ms to complete.
+[2019.09.11-05.30.11:612][  0]LogFileHelpers: Loading map 'Untitled' took 0.342
+[2019.09.11-05.30.11:744][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.11-05.30.11:751][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.11-05.30.11:759][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.11-05.30.11:766][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.11-05.30.11:772][  0]LogCollectionManager: Loaded 0 collections in 0.001552 seconds
+[2019.09.11-05.30.11:819][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Collections/' took 0.01s
+[2019.09.11-05.30.11:819][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Developers/s181813/Collections/' took 0.01s
+[2019.09.11-05.30.11:820][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Collections/' took 0.01s
+[2019.09.11-05.30.11:820][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.09.11-05.30.11:829][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2577 classes and 605 folders.
+[2019.09.11-05.30.11:835][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.09.11-05.30.11:870][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.09.11-05.30.11:879][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.09.11-05.30.11:935][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.09.11-05.30.11:935][  0]LogLoad: (Engine Initialization) Total time: 8.25 seconds
+[2019.09.11-05.30.11:935][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.11-05.30.11:945][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.11-05.30.11:964][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.09.11-05.30.11:966][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.11-05.30.11:968][  0]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.11-05.30.11:972][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.11-05.30.12:081][  0]LogRenderer: Reallocating scene render targets to support 804x360 Format 10 NumSamples 1 (Frame:1).
+[2019.09.11-05.30.12:114][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.11-05.30.12:357][  1]LogAssetRegistry: Asset discovery search completed in 4.5264 seconds
+[2019.09.11-05.30.12:359][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.09.11-05.30.12:359][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000193 seconds (updated 0 objects)
+[2019.09.11-05.30.20:721][996]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.11-05.30.52:341][733]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.11-05.30.52:352][733]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BluePrints/WidgetHUD.WidgetHUD
+[2019.09.11-05.30.52:771][733]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.09.11-05.30.53:508][733]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.09.11-05.33.17:535][419]LogEditorTransaction: Undo Resize Widget
+[2019.09.11-05.33.17:847][435]LogEditorTransaction: Undo Add Widget
+[2019.09.11-05.34.50:848][220]LogEditorTransaction: Undo Resize Widget
+[2019.09.11-05.37.34:661][261]LogSlate: Window 'WidgetHUD*' being destroyed
+[2019.09.11-05.37.47:257][735]LogRenderer: Reallocating scene render targets to support 1056x556 Format 10 NumSamples 1 (Frame:8).
+[2019.09.11-05.40.26:806][591]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Untitled' took 0.039
+[2019.09.11-05.40.26:809][591]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/WidgetHUD] ([1] browsable assets)...
+[2019.09.11-05.40.26:809][591]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/WidgetHUD]
+[2019.09.11-05.40.26:822][591]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/WidgetHUD_Auto1B6B1E99944C6CDEE0CFD69AB4C60428B.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Autosaves/Game/BluePrints/WidgetHUD_Auto1.uasset'
+[2019.09.11-05.40.26:824][591]LogFileHelpers: Auto-saving content packages took 0.016
+[2019.09.11-05.45.10:882][390]LogSlate: Window 'Save Asset As' being destroyed
+[2019.09.11-05.49.56:222][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_13.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:222][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_12.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:222][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_11.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:223][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_10.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:223][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_6.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:223][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_7.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:223][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_9.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:223][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_8.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:223][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_14.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:223][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_15.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:223][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_16.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:223][572]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2) from referencer (Image /Engine/UMG/Editor/Transient.Image_536).  Import failed...
+[2019.09.11-05.49.56:224][572]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_2"''
+[2019.09.11-05.49.56:224][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_13.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:224][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_12.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:224][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_11.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:224][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_10.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:224][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_6.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:224][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_7.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:225][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_9.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:225][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_8.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:225][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_14.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:225][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_15.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:225][572]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_16.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.49.56:225][572]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4) from referencer (Image /Engine/UMG/Editor/Transient.Image_614).  Import failed...
+[2019.09.11-05.49.56:225][572]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_4"''
+[2019.09.11-05.52.04:240][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_13.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:240][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_12.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:240][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_11.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:240][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_10.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:241][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_6.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:241][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_7.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:241][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_9.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:241][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_8.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:241][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_14.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:241][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_15.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:241][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_16.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:241][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_17.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:241][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_18.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:242][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_19.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:242][279]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4) from referencer (Image /Engine/UMG/Editor/Transient.Image_614).  Import failed...
+[2019.09.11-05.52.04:242][279]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_4"''
+[2019.09.11-05.52.04:242][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_13.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:242][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_12.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:243][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_11.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:243][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_10.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:243][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_6.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:243][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_7.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:243][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_9.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:243][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_8.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:243][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_14.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:243][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_15.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:243][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_16.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:244][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_17.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:244][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_18.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:244][279]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_19.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.04:244][279]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2) from referencer (Image /Engine/UMG/Editor/Transient.Image_536).  Import failed...
+[2019.09.11-05.52.04:244][279]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_2"''
+[2019.09.11-05.52.10:560][998]LogEditorTransaction: Undo Animatable Property Changed
+[2019.09.11-05.52.13:381][315]LogEditorTransaction: Undo Animatable Property Changed
+[2019.09.11-05.52.17:687][821]LogEditorTransaction: Undo Animatable Property Changed
+[2019.09.11-05.52.19:069][973]LogEditorTransaction: Undo Animatable Property Changed
+[2019.09.11-05.52.20:287][117]LogEditorTransaction: Undo Animatable Property Changed
+[2019.09.11-05.52.22:540][383]LogEditorTransaction: Undo Animatable Property Changed
+[2019.09.11-05.52.41:555][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_13.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:555][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_12.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:555][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_11.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:556][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_10.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:556][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_6.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:556][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_7.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:556][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_9.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:556][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_8.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:556][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_14.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:556][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_15.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:556][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_16.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:557][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_17.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:557][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_18.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:557][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_19.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:557][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_20.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:557][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_21.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:557][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_22.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:557][590]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4) from referencer (Image /Engine/UMG/Editor/Transient.Image_614).  Import failed...
+[2019.09.11-05.52.41:558][590]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_4"''
+[2019.09.11-05.52.41:558][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_13.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:558][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_12.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:558][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_11.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:558][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_10.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:558][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_6.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:558][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_7.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:559][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_9.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:559][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_8.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:559][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_14.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:559][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_15.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:559][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_16.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:559][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_17.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:559][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_18.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:559][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_19.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:559][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_20.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:559][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_21.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:560][590]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WidgetHUD_C_22.WidgetTree_0.CanvasPanel_0
+[2019.09.11-05.52.41:560][590]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/BluePrints/WidgetHUD.WidgetHUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2) from referencer (Image /Engine/UMG/Editor/Transient.Image_536).  Import failed...
+[2019.09.11-05.52.41:560][590]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_2"''
+[2019.09.11-05.55.11:751][576]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Untitled' took 0.038
+[2019.09.11-05.55.11:753][576]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/WidgetHUD] ([1] browsable assets)...
+[2019.09.11-05.55.11:753][576]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/WidgetHUD]
+[2019.09.11-05.55.11:767][576]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/WidgetHUD_Auto2B6968E654F227C2344C4EBBFF7088824.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Autosaves/Game/BluePrints/WidgetHUD_Auto2.uasset'
+[2019.09.11-05.55.11:769][576]LogFileHelpers: Auto-saving content packages took 0.017
+[2019.09.11-05.57.08:175][854]LogSlate: Window 'Color Picker' being destroyed
+[2019.09.11-05.59.26:565][587]LogSlate: Window 'Color Picker' being destroyed
+[2019.09.11-06.00.26:692][384]LogSlate: Window 'Color Picker' being destroyed
+[2019.09.11-06.01.24:964][131]LogEditorTransaction: Undo Remove Widget
+[2019.09.11-06.01.38:266][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/WidgetHUD" FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/BluePrints/WidgetHUD.uasset" SILENT=true
+[2019.09.11-06.01.38:283][701]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/WidgetHUD292C77294A879A9017C2A2AF58CEB7CF.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/BluePrints/WidgetHUD.uasset'
+[2019.09.11-06.01.39:766][877]BlueprintLog: New page: Compile WidgetHUD
+[2019.09.11-06.04.55:227][576]LogSlate: Window 'Color Picker' being destroyed
+[2019.09.11-06.05.35:163][472]LogSlate: Window 'Color Picker' being destroyed
+[2019.09.11-06.06.14:295][456]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Untitled' took 0.031
+[2019.09.11-06.06.14:297][456]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/WidgetHUD] ([1] browsable assets)...
+[2019.09.11-06.06.14:297][456]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/WidgetHUD]
+[2019.09.11-06.06.14:321][456]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/WidgetHUD_Auto3FBB28D6D4429257A060B8BAD3572E79A.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Autosaves/Game/BluePrints/WidgetHUD_Auto3.uasset'
+[2019.09.11-06.06.14:324][456]LogFileHelpers: Auto-saving content packages took 0.027
+[2019.09.11-06.06.39:457][158]LogSlate: Window 'Color Picker' being destroyed
+[2019.09.11-06.08.43:357][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\s181813\Desktop\DUCK.jpg)
+[2019.09.11-06.08.43:361][800]LogTexture: Display: Building textures: DUCK (BGRA8, 85X85)
+[2019.09.11-06.16.14:492][619]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Untitled' took 0.028
+[2019.09.11-06.16.14:494][619]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/WidgetHUD] ([1] browsable assets)...
+[2019.09.11-06.16.14:494][619]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/WidgetHUD]
+[2019.09.11-06.16.14:521][619]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/WidgetHUD_Auto43A2A73FD43992765BE9A2DA60B2D9139.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Autosaves/Game/BluePrints/WidgetHUD_Auto4.uasset'
+[2019.09.11-06.16.14:523][619]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/DUCK] ([1] browsable assets)...
+[2019.09.11-06.16.14:525][619]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/DUCK.DUCK]
+[2019.09.11-06.16.14:525][619]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/DUCK]
+[2019.09.11-06.16.14:533][619]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/DUCK_Auto4B94AB3AA4DD7532ED03DD9B8E5F47E25.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Autosaves/Game/Materials/DUCK_Auto4.uasset'
+[2019.09.11-06.16.14:535][619]LogFileHelpers: Auto-saving content packages took 0.041
+[2019.09.11-06.18.48:400][873]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\s181813\Desktop\download.jpg)
+[2019.09.11-06.18.48:403][873]LogTexture: Display: Building textures: download (BGRA8, 59X331)
+[2019.09.11-06.19.25:469][464]LogSlate: Window 'Save Asset As' being destroyed
+[2019.09.11-06.19.37:579][464]LogSlate: Window 'Message' being destroyed
+[2019.09.11-06.19.56:090][487]LogSlate: Window 'Delete Assets' being destroyed
+[2019.09.11-06.20.17:821][311]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\s181813\Desktop\Line.jpg)
+[2019.09.11-06.20.17:824][311]LogTexture: Display: Building textures: Line (BGRA8, 59X331)
+[2019.09.11-06.20.37:641][924]LogSlate: Window 'Save Asset As' being destroyed
+[2019.09.11-06.20.59:904][924]LogSlate: Window 'Message' being destroyed
+[2019.09.11-06.21.13:698][105]LogSlate: Window 'Save Asset As' being destroyed
+[2019.09.11-06.21.15:501][105]LogSlate: Window 'Message' being destroyed
+[2019.09.11-06.21.33:920][153]LogSlate: Window 'Save Asset As' being destroyed
+[2019.09.11-06.21.40:379][911]Cmd: TRANSACTION UNDO
+[2019.09.11-06.21.40:379][911]LogEditorTransaction: Undo Edit Image
+[2019.09.11-06.21.41:757][ 70]Cmd: TRANSACTION UNDO
+[2019.09.11-06.21.41:757][ 70]LogEditorTransaction: Undo Edit Percent
+[2019.09.11-06.21.44:905][442]Cmd: TRANSACTION UNDO
+[2019.09.11-06.21.44:905][442]LogEditorTransaction: Undo Edit Tiling
+[2019.09.11-06.22.00:824][284]LogEditorTransaction: Redo Edit Tiling
+[2019.09.11-06.22.14:274][674]LogSlate: Window 'Delete Assets' being destroyed
+[2019.09.11-06.22.20:894][983]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\s181813\Desktop\Line.jpg)
+[2019.09.11-06.22.20:897][983]LogTexture: Display: Building textures: Line (BGRA8, 59X331)
+[2019.09.11-06.22.27:492][764]LogMaterial: Display: Missing cached shader map for material Line_Mat, compiling. 
+[2019.09.11-06.22.27:544][765]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.09.11-06.22.27:545][765]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.09.11-06.22.27:545][765]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.09.11-06.22.40:392][129]LogSlate: Window 'Delete Assets' being destroyed
+[2019.09.11-06.23.35:685][431]LogSlate: Window 'Color Picker' being destroyed
+[2019.09.11-06.23.54:016][406]LogMaterial: Display: Missing cached shader map for material Line_Mat, compiling. 
+[2019.09.11-06.23.54:039][407]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.09.11-06.23.54:039][407]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.09.11-06.24.24:400][734]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/Line_Mat.Line_Mat
+[2019.09.11-06.24.24:402][734]LogMaterial: Display: Missing cached shader map for material Line_Mat, compiling. 
+[2019.09.11-06.24.24:748][734]LogMaterial: Display: Missing cached shader map for material Line_Mat, compiling. 
+[2019.09.11-06.24.24:756][734]LogMaterial: Display: Missing cached shader map for material Line_Mat, compiling. 
+[2019.09.11-06.24.24:769][734]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.09.11-06.24.24:769][734]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.09.11-06.24.24:769][734]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.09.11-06.24.24:769][734]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.11-06.24.24:799][734]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.09.11-06.24.25:258][777]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.09.11-06.24.25:293][781]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.11-06.24.25:356][789]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.09.11-06.24.25:415][796]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.09.11-06.24.25:430][798]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.09.11-06.24.25:466][802]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.09.11-06.24.25:523][809]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.09.11-06.24.25:585][816]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.09.11-06.24.25:600][818]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.09.11-06.24.25:624][821]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.09.11-06.24.25:683][828]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.09.11-06.24.25:736][834]MaterialEditorStats: Default UI Pixel Shader: 15 instructions
+[2019.09.11-06.24.25:736][834]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2019.09.11-06.24.25:736][834]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2019.09.11-06.24.25:736][834]MaterialEditorStats: Texture samplers: 1/16
+[2019.09.11-06.25.05:778][855]LogSlate: Window 'Save Asset As' being destroyed
+[2019.09.11-06.25.09:868][855]LogSlate: Window 'Message' being destroyed
+[2019.09.11-06.25.47:274][ 38]LogSlate: Window 'Save Asset As' being destroyed
+[2019.09.11-06.26.38:067][754]LogSlate: Window 'Color Picker' being destroyed
+[2019.09.11-06.28.35:600][584]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Untitled' took 0.029
+[2019.09.11-06.28.35:602][584]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/WidgetHUD] ([1] browsable assets)...
+[2019.09.11-06.28.35:602][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/WidgetHUD]
+[2019.09.11-06.28.35:628][584]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/WidgetHUD_Auto594BB6FCB4F2AB047578E3E87414503A6.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Autosaves/Game/BluePrints/WidgetHUD_Auto5.uasset'
+[2019.09.11-06.28.35:630][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Line] ([1] browsable assets)...
+[2019.09.11-06.28.35:633][584]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Line.Line]
+[2019.09.11-06.28.35:633][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Line]
+[2019.09.11-06.28.35:644][584]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Line_Auto5A83AC41A4D522D7350DF5EA1160591F1.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Autosaves/Game/Materials/Line_Auto5.uasset'
+[2019.09.11-06.28.35:646][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Line_Mat] ([1] browsable assets)...
+[2019.09.11-06.28.35:660][584]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/Line_Mat.Line_Mat]
+[2019.09.11-06.28.35:660][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Line_Mat]
+[2019.09.11-06.28.35:679][584]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Line_Mat_Auto5964D67C14A0B3500F84F58B5FD7EC633.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Autosaves/Game/Materials/Line_Mat_Auto5.uasset'
+[2019.09.11-06.28.35:682][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Non] ([1] browsable assets)...
+[2019.09.11-06.28.35:687][584]OBJ SavePackage:     Rendered thumbnail for [CanvasRenderTarget2D /Game/Non.Non]
+[2019.09.11-06.28.35:687][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/Non]
+[2019.09.11-06.28.35:687][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Non" FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Autosaves/Game/Non_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2019.09.11-06.28.35:698][584]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Non_Auto5DAD5CE7E4ECF766B2046998BD42E705B.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Autosaves/Game/Non_Auto5.uasset'
+[2019.09.11-06.28.35:699][584]LogFileHelpers: Auto-saving content packages took 0.098
+[2019.09.11-06.31.00:951][284]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/PlayerHUDBP.PlayerHUDBP
+[2019.09.11-06.31.01:268][284]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.09.11-06.31.01:346][285]LogRenderer: Reallocating scene render targets to support 1056x572 Format 10 NumSamples 1 (Frame:1).
+[2019.09.11-06.31.20:251][506]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.09.11-06.31.38:924][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.11-06.31.39:136][421]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Untitled2586504E4DC3492C00EADE95F11FE460.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Untitled.umap'
+[2019.09.11-06.31.39:175][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled_BuiltData" FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Untitled_BuiltData.uasset" SILENT=true
+[2019.09.11-06.31.39:361][421]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Untitled_BuiltData5C0154A1478B3AF91C773AA3B5B9B805.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Untitled_BuiltData.uasset'
+[2019.09.11-06.32.30:343][259]LogSlate: Took 0.004166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.09.11-06.32.37:772][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerHUDBP" FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/BluePrints/PlayerHUDBP.uasset" SILENT=true
+[2019.09.11-06.32.37:785][149]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/PlayerHUDBP133FD9F8463FFC1FA6F61E8DED7D4816.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/BluePrints/PlayerHUDBP.uasset'
+[2019.09.11-06.32.38:573][242]BlueprintLog: New page: Compile PlayerHUDBP
+[2019.09.11-06.32.41:281][547]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.11-06.32.41:304][547]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.09.11-06.32.41:309][547]LogPlayLevel: [PlayLevel] Compiling WidgetHUD before play...
+[2019.09.11-06.32.41:521][547]LogPlayLevel: PlayLevel: Blueprint regeneration took 216 ms (1 blueprints)
+[2019.09.11-06.32.41:536][547]PIE: New page: PIE session: Untitled (Sep 12, 2019, 2:32:41 AM)
+[2019.09.11-06.32.41:536][547]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Untitled
+[2019.09.11-06.32.41:549][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012753s)
+[2019.09.11-06.32.41:550][547]LogAIModule: Creating AISystem for world Untitled
+[2019.09.11-06.32.41:550][547]LogPlayLevel: PIE: World Init took: (0.001189s)
+[2019.09.11-06.32.41:550][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Untitled.Untitled to /Game/UEDPIE_0_Untitled.Untitled (0.014497s)
+[2019.09.11-06.32.41:577][547]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.11-06.32.41:590][547]LogInit: FAudioDevice initialized.
+[2019.09.11-06.32.41:640][547]LogLoad: Game class is 'DuckHuntGameModeBase'
+[2019.09.11-06.32.41:644][547]LogWorld: Bringing World /Game/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2019.09.11-16.32.41
+[2019.09.11-06.32.41:644][547]LogWorld: Bringing up level for play took: 0.003135
+[2019.09.11-06.32.41:667][547]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.09.11-06.32.41:667][547]PIE: Play in editor start time for /Game/UEDPIE_0_Untitled 0.269
+[2019.09.11-06.32.49:007][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.11-06.32.49:049][414]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.11-06.32.49:081][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.11-06.32.49:151][416]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.09.11-06.32.50:343][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.11-06.33.09:716][847]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.09.11-06.33.14:829][455]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.11-06.33.14:853][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.11-06.33.14:853][455]PIE: New page: PIE session: Untitled (Sep 12, 2019, 2:33:14 AM)
+[2019.09.11-06.33.14:854][455]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Untitled
+[2019.09.11-06.33.14:867][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013440s)
+[2019.09.11-06.33.14:868][455]LogAIModule: Creating AISystem for world Untitled
+[2019.09.11-06.33.14:868][455]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2019.09.11-06.33.14:869][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Untitled.Untitled to /Game/UEDPIE_0_Untitled.Untitled (0.014960s)
+[2019.09.11-06.33.14:898][455]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.11-06.33.14:910][455]LogInit: FAudioDevice initialized.
+[2019.09.11-06.33.14:948][455]LogLoad: Game class is 'DuckHuntGameModeBase'
+[2019.09.11-06.33.14:951][455]LogWorld: Bringing World /Game/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2019.09.11-16.33.14
+[2019.09.11-06.33.14:951][455]LogWorld: Bringing up level for play took: 0.002675
+[2019.09.11-06.33.14:965][455]PIE: Play in editor start time for /Game/UEDPIE_0_Untitled -0.433
+[2019.09.11-06.33.20:032][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.11-06.33.20:068][ 60]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.11-06.33.20:098][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.11-06.33.20:139][ 63]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.09.11-06.33.22:322][325]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.11-06.35.44:597][ 93]LogRenderer: Reallocating scene render targets to support 1056x872 Format 10 NumSamples 1 (Frame:885).
+[2019.09.11-06.35.47:356][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerHUDBP" FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/BluePrints/PlayerHUDBP.uasset" SILENT=true
+[2019.09.11-06.35.47:385][422]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/PlayerHUDBP1E2BA1F74A26791D03451EAFF2C8111C.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/BluePrints/PlayerHUDBP.uasset'
+[2019.09.11-06.35.49:253][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/WidgetHUD" FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/BluePrints/WidgetHUD.uasset" SILENT=true
+[2019.09.11-06.35.49:276][618]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/WidgetHUD7EBF8EDC4BD7986F02553380D7D90FF6.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/BluePrints/WidgetHUD.uasset'
+[2019.09.11-06.35.50:525][745]BlueprintLog: New page: Compile WidgetHUD
+[2019.09.11-06.35.52:610][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.11-06.35.52:812][954]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/UntitledC3D09AB447903EFBF645ED8EA9ECDD59.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Untitled.umap'
+[2019.09.11-06.35.52:852][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled_BuiltData" FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Untitled_BuiltData.uasset" SILENT=true
+[2019.09.11-06.35.52:982][954]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Untitled_BuiltData0F60EA8645D61C05A33E17B955B0A5DB.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Untitled_BuiltData.uasset'
+[2019.09.11-06.35.54:454][128]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.11-06.35.54:477][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.11-06.35.54:477][128]PIE: New page: PIE session: Untitled (Sep 12, 2019, 2:35:54 AM)
+[2019.09.11-06.35.54:477][128]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Untitled
+[2019.09.11-06.35.54:489][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011717s)
+[2019.09.11-06.35.54:490][128]LogAIModule: Creating AISystem for world Untitled
+[2019.09.11-06.35.54:490][128]LogPlayLevel: PIE: World Init took: (0.001079s)
+[2019.09.11-06.35.54:490][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Untitled.Untitled to /Game/UEDPIE_0_Untitled.Untitled (0.013258s)
+[2019.09.11-06.35.54:518][128]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.11-06.35.54:532][128]LogInit: FAudioDevice initialized.
+[2019.09.11-06.35.54:568][128]LogLoad: Game class is 'DuckHuntGameModeBase'
+[2019.09.11-06.35.54:572][128]LogWorld: Bringing World /Game/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2019.09.11-16.35.54
+[2019.09.11-06.35.54:573][128]LogWorld: Bringing up level for play took: 0.003587
+[2019.09.11-06.35.54:586][128]PIE: Play in editor start time for /Game/UEDPIE_0_Untitled -0.81
+[2019.09.11-06.35.57:091][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.11-06.35.57:132][410]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.11-06.35.57:159][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.11-06.35.57:195][412]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.09.11-06.35.59:773][721]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.11-06.36.04:448][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.11-06.36.04:649][236]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Untitled8D5639224DAD06F3F77BCA9A8A12A2EA.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Untitled.umap'
+[2019.09.11-06.36.04:685][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled_BuiltData" FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Untitled_BuiltData.uasset" SILENT=true
+[2019.09.11-06.36.04:821][236]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Untitled_BuiltDataA09ABB084EED2E0E2BAEE8A6E8EF5C3A.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Untitled_BuiltData.uasset'
+[2019.09.11-06.36.18:694][611]LogSlate: Window 'Save Content' being destroyed
+[2019.09.11-06.36.18:722][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/DUCK" FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Materials/DUCK.uasset" SILENT=true
+[2019.09.11-06.36.18:731][611]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/DUCK7C6CB20F400768A3103A1A89F8DB39FD.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Materials/DUCK.uasset'
+[2019.09.11-06.36.18:738][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Line" FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Materials/Line.uasset" SILENT=true
+[2019.09.11-06.36.18:749][611]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/LineB23BA5004528796295A3D0B934B49F1F.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Materials/Line.uasset'
+[2019.09.11-06.36.18:756][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Line_Mat" FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Materials/Line_Mat.uasset" SILENT=true
+[2019.09.11-06.36.18:768][611]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/Line_Mat7CB715664A8A801722F3E9A533CCDE8F.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Materials/Line_Mat.uasset'
+[2019.09.11-06.36.18:775][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Non" FILE="../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Non.uasset" SILENT=true
+[2019.09.11-06.36.18:784][611]LogSavePackage: Moving '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Saved/NonF6E1A91B4826C6F786394AA42B3F219D.tmp' to '../../../../../../Users/s181813/Documents/GitHub/DuckHuntUnreal/DuckHunt/Content/Non.uasset'
+[2019.09.11-06.36.18:993][611]LogSlate: Window 'DuckHunt - Unreal Editor' being destroyed
+[2019.09.11-06.36.19:220][612]Cmd: QUIT_EDITOR
+[2019.09.11-06.36.19:285][612]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.11-06.36.19:296][612]LogExit: Preparing to exit.
+[2019.09.11-06.36.20:176][612]LogExit: Editor shut down
+[2019.09.11-06.36.20:177][612]LogExit: Transaction tracking system shut down
+[2019.09.11-06.36.20:742][612]LogExit: Object subsystem successfully closed.
+[2019.09.11-06.36.20:773][612]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.09.11-06.36.20:777][612]LogD3D11RHI: Shutdown
+[2019.09.11-06.36.20:777][612]LogD3D11RHI: CleanupD3DDevice
+[2019.09.11-06.36.20:781][612]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.09.11-06.36.20:797][612]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (620)
+[2019.09.11-06.36.20:797][612]LogModuleManager: Shutting down and abandoning module Voice (618)
+[2019.09.11-06.36.20:797][612]LogModuleManager: Shutting down and abandoning module SequencerWidgets (616)
+[2019.09.11-06.36.20:797][612]LogModuleManager: Shutting down and abandoning module BlueprintGraph (614)
+[2019.09.11-06.36.20:797][612]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.09.11-06.36.20:797][612]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.09.11-06.36.20:797][612]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.09.11-06.36.20:798][612]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.09.11-06.36.20:798][612]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.09.11-06.36.20:798][612]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.09.11-06.36.20:799][612]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2019.09.11-06.36.20:799][612]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2019.09.11-06.36.20:799][612]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2019.09.11-06.36.20:799][612]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2019.09.11-06.36.20:799][612]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2019.09.11-06.36.20:799][612]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2019.09.11-06.36.20:799][612]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2019.09.11-06.36.20:800][612]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2019.09.11-06.36.20:800][612]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2019.09.11-06.36.20:800][612]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2019.09.11-06.36.20:800][612]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2019.09.11-06.36.20:800][612]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2019.09.11-06.36.20:800][612]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2019.09.11-06.36.20:800][612]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.09.11-06.36.20:800][612]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2019.09.11-06.36.20:801][612]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2019.09.11-06.36.20:801][612]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2019.09.11-06.36.20:801][612]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2019.09.11-06.36.20:801][612]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2019.09.11-06.36.20:801][612]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2019.09.11-06.36.20:801][612]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2019.09.11-06.36.20:801][612]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2019.09.11-06.36.20:801][612]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2019.09.11-06.36.20:802][612]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2019.09.11-06.36.20:802][612]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2019.09.11-06.36.20:802][612]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2019.09.11-06.36.20:802][612]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2019.09.11-06.36.20:802][612]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2019.09.11-06.36.20:802][612]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2019.09.11-06.36.20:802][612]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2019.09.11-06.36.20:802][612]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2019.09.11-06.36.20:802][612]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2019.09.11-06.36.20:802][612]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2019.09.11-06.36.20:802][612]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2019.09.11-06.36.20:802][612]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2019.09.11-06.36.20:802][612]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2019.09.11-06.36.20:803][612]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2019.09.11-06.36.20:803][612]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2019.09.11-06.36.20:803][612]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2019.09.11-06.36.20:803][612]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2019.09.11-06.36.20:803][612]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2019.09.11-06.36.20:803][612]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2019.09.11-06.36.20:803][612]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2019.09.11-06.36.20:803][612]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2019.09.11-06.36.20:804][612]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2019.09.11-06.36.20:804][612]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2019.09.11-06.36.22:224][612]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2019.09.11-06.36.22:224][612]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2019.09.11-06.36.22:224][612]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2019.09.11-06.36.22:225][612]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2019.09.11-06.36.22:225][612]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.09.11-06.36.22:225][612]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.09.11-06.36.22:225][612]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.09.11-06.36.22:225][612]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.09.11-06.36.22:225][612]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.09.11-06.36.22:225][612]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.09.11-06.36.22:225][612]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.09.11-06.36.22:225][612]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.09.11-06.36.22:225][612]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.09.11-06.36.22:225][612]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.09.11-06.36.22:226][612]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.09.11-06.36.22:226][612]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.09.11-06.36.22:226][612]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.09.11-06.36.22:226][612]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.09.11-06.36.22:226][612]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.09.11-06.36.22:226][612]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.09.11-06.36.22:226][612]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.09.11-06.36.22:226][612]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.09.11-06.36.22:281][612]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.09.11-06.36.22:281][612]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.09.11-06.36.22:281][612]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.09.11-06.36.22:281][612]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.09.11-06.36.22:281][612]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.09.11-06.36.22:282][612]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.09.11-06.36.22:282][612]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.09.11-06.36.22:282][612]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.09.11-06.36.22:282][612]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.09.11-06.36.22:282][612]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.09.11-06.36.22:287][612]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.09.11-06.36.22:287][612]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.09.11-06.36.22:290][612]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.09.11-06.36.22:290][612]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2019.09.11-06.36.22:290][612]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.09.11-06.36.22:290][612]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.09.11-06.36.22:290][612]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.09.11-06.36.22:290][612]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.09.11-06.36.22:290][612]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.09.11-06.36.22:291][612]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.09.11-06.36.22:291][612]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.09.11-06.36.22:291][612]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.09.11-06.36.22:291][612]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.09.11-06.36.22:291][612]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.09.11-06.36.22:291][612]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.09.11-06.36.22:291][612]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.09.11-06.36.22:291][612]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.09.11-06.36.22:292][612]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.09.11-06.36.22:292][612]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.09.11-06.36.22:292][612]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.09.11-06.36.22:292][612]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.09.11-06.36.22:292][612]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.09.11-06.36.22:511][612]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.09.11-06.36.22:511][612]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.09.11-06.36.22:511][612]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.09.11-06.36.22:511][612]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.09.11-06.36.22:512][612]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.09.11-06.36.22:512][612]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.09.11-06.36.22:512][612]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.09.11-06.36.22:512][612]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.09.11-06.36.22:512][612]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.09.11-06.36.22:512][612]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.09.11-06.36.22:512][612]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.09.11-06.36.22:512][612]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.09.11-06.36.22:512][612]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.09.11-06.36.22:513][612]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.09.11-06.36.22:513][612]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2019.09.11-06.36.22:513][612]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.09.11-06.36.22:513][612]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.09.11-06.36.22:513][612]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.09.11-06.36.22:523][612]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.09.11-06.36.22:523][612]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.09.11-06.36.22:523][612]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.09.11-06.36.22:523][612]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.09.11-06.36.22:523][612]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.09.11-06.36.22:523][612]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.09.11-06.36.22:523][612]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.09.11-06.36.22:523][612]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.09.11-06.36.22:523][612]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.09.11-06.36.22:523][612]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.09.11-06.36.22:523][612]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.09.11-06.36.22:524][612]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.09.11-06.36.22:525][612]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.09.11-06.36.22:525][612]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.09.11-06.36.22:525][612]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.09.11-06.36.22:525][612]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.09.11-06.36.22:526][612]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.09.11-06.36.22:526][612]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.09.11-06.36.22:526][612]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.09.11-06.36.22:526][612]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.09.11-06.36.22:526][612]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.09.11-06.36.22:527][612]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.09.11-06.36.22:527][612]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.09.11-06.36.22:527][612]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.09.11-06.36.22:527][612]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.09.11-06.36.22:527][612]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.09.11-06.36.22:527][612]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.09.11-06.36.22:528][612]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.09.11-06.36.22:528][612]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.09.11-06.36.22:528][612]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.09.11-06.36.22:528][612]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.09.11-06.36.22:528][612]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.09.11-06.36.22:528][612]LogModuleManager: Shutting down and abandoning module DuckHunt (300)
+[2019.09.11-06.36.22:528][612]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.09.11-06.36.22:528][612]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.09.11-06.36.22:528][612]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.09.11-06.36.22:528][612]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.09.11-06.36.22:528][612]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.09.11-06.36.22:528][612]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.09.11-06.36.22:528][612]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.09.11-06.36.22:528][612]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.09.11-06.36.22:529][612]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.09.11-06.36.22:630][612]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.09.11-06.36.22:730][612]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.09.11-06.36.22:730][612]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.09.11-06.36.22:730][612]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.09.11-06.36.22:730][612]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.09.11-06.36.22:730][612]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.09.11-06.36.22:730][612]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.09.11-06.36.22:730][612]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.09.11-06.36.22:731][612]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.09.11-06.36.22:731][612]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.09.11-06.36.22:731][612]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.09.11-06.36.22:731][612]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.09.11-06.36.22:732][612]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.09.11-06.36.22:733][612]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.09.11-06.36.22:733][612]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.09.11-06.36.22:733][612]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.09.11-06.36.22:733][612]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.09.11-06.36.22:734][612]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.09.11-06.36.22:734][612]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.09.11-06.36.22:737][612]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.09.11-06.36.22:744][612]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.09.11-06.36.22:744][612]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.09.11-06.36.22:744][612]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.09.11-06.36.22:745][612]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.09.11-06.36.22:745][612]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.09.11-06.36.22:745][612]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.09.11-06.36.22:745][612]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.09.11-06.36.22:745][612]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.09.11-06.36.22:745][612]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.09.11-06.36.22:745][612]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.09.11-06.36.22:745][612]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.09.11-06.36.22:745][612]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.09.11-06.36.22:745][612]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.09.11-06.36.22:745][612]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.09.11-06.36.22:745][612]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.09.11-06.36.22:745][612]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.09.11-06.36.22:745][612]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.09.11-06.36.22:745][612]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.09.11-06.36.22:746][612]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.09.11-06.36.22:746][612]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.09.11-06.36.22:747][612]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.09.11-06.36.22:747][612]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.09.11-06.36.22:747][612]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.09.11-06.36.22:748][612]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.09.11-06.36.22:748][612]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.09.11-06.36.22:748][612]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.09.11-06.36.22:748][612]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.09.11-06.36.22:748][612]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.09.11-06.36.22:748][612]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.09.11-06.36.22:748][612]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.09.11-06.36.22:748][612]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.09.11-06.36.22:748][612]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.09.11-06.36.22:748][612]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.09.11-06.36.22:748][612]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.09.11-06.36.22:748][612]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.09.11-06.36.22:748][612]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.09.11-06.36.22:748][612]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.09.11-06.36.22:749][612]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.09.11-06.36.22:766][612]LogDerivedDataCache: Shutdown
+[2019.09.11-06.36.22:766][612]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.09.11-06.36.22:766][612]LogXGEController: Cleaning working directory: C:/Users/s181813/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.09.11-06.36.22:766][612]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.09.11-06.36.22:766][612]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.09.11-06.36.22:766][612]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.09.11-06.36.22:766][612]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.09.11-06.36.22:766][612]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.09.11-06.36.22:767][612]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.09.11-06.36.22:767][612]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.09.11-06.36.22:767][612]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.09.11-06.36.22:767][612]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.09.11-06.36.22:767][612]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.09.11-06.36.22:768][612]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.09.11-06.36.22:768][612]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.09.11-06.36.22:768][612]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.09.11-06.36.22:768][612]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.09.11-06.36.22:768][612]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.09.11-06.36.22:769][612]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.09.11-06.36.22:769][612]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.09.11-06.36.22:769][612]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.09.11-06.36.22:769][612]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.09.11-06.36.22:769][612]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.09.11-06.36.22:769][612]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.09.11-06.36.22:769][612]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.09.11-06.36.22:770][612]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.09.11-06.36.22:770][612]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.09.11-06.36.22:771][612]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.09.11-06.36.22:771][612]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.09.11-06.36.22:777][612]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.09.11-06.36.22:778][612]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.09.11-06.36.22:778][612]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.09.11-06.36.22:778][612]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.09.11-06.36.22:778][612]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.09.11-06.36.22:778][612]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.09.11-06.36.22:778][612]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.09.11-06.36.22:778][612]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.09.11-06.36.22:778][612]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.09.11-06.36.22:778][612]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.09.11-06.36.22:778][612]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.09.11-06.36.22:778][612]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.09.11-06.36.22:778][612]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.09.11-06.36.22:779][612]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.09.11-06.36.22:779][612]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.09.11-06.36.22:779][612]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.09.11-06.36.22:779][612]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.09.11-06.36.22:779][612]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.09.11-06.36.22:780][612]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.09.11-06.36.22:780][612]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.09.11-06.36.22:796][612]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.09.11-06.36.22:796][612]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.09.11-06.36.22:796][612]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33A8403B-46B0-1491-2041-3381B86C151A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=1a6dff1e4162254109a321b44ba5ddff%7C%7Cde607862-eb07-41c8-b873-8c74f3933484&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.09.11-06.36.22:828][612]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.09.11-06.36.22:829][612]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.09.11-06.36.22:829][612]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.09.11-06.36.22:829][612]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.09.11-06.36.22:829][612]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.09.11-06.36.22:829][612]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.09.11-06.36.22:829][612]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.09.11-06.36.22:830][612]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.09.11-06.36.22:830][612]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.09.11-06.36.22:830][612]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.09.11-06.36.22:830][612]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.09.11-06.36.22:830][612]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.09.11-06.36.22:830][612]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.09.11-06.36.22:831][612]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.09.11-06.36.22:831][612]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.09.11-06.36.22:831][612]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.09.11-06.36.22:833][612]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.09.11-06.36.22:834][612]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.09.11-06.36.22:834][612]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.09.11-06.36.22:835][612]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.09.11-06.36.22:835][612]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.09.11-06.36.22:835][612]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.09.11-06.36.22:835][612]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.09.11-06.36.22:835][612]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.09.11-06.36.22:835][612]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.09.11-06.36.22:835][612]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.09.11-06.36.22:835][612]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.09.11-06.36.22:836][612]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.09.11-06.36.22:836][612]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.09.11-06.36.22:836][612]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.09.11-06.36.22:852][612]LogExit: Exiting.
+[2019.09.11-06.36.22:879][612]Log file closed, 09/11/19 16:36:22

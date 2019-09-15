@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -51,17 +51,13 @@ void EmptyLinkFunctionForGeneratedCodeDuckHuntGameModeBase() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ADuckHuntGameModeBase_Statics::ClassParams = {
 		&ADuckHuntGameModeBase::StaticClass,
+		DependentSingletons, ARRAY_COUNT(DependentSingletons),
+		0x009002A8u,
+		nullptr, 0,
+		nullptr, 0,
 		nullptr,
 		&StaticCppClassTypeInfo,
-		DependentSingletons,
-		nullptr,
-		nullptr,
-		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		0,
-		0,
-		0,
-		0x009002A8u,
+		nullptr, 0,
 		METADATA_PARAMS(Z_Construct_UClass_ADuckHuntGameModeBase_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ADuckHuntGameModeBase_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ADuckHuntGameModeBase()
@@ -73,11 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeDuckHuntGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADuckHuntGameModeBase, 1299956863);
-	template<> DUCKHUNT_API UClass* StaticClass<ADuckHuntGameModeBase>()
-	{
-		return ADuckHuntGameModeBase::StaticClass();
-	}
+	IMPLEMENT_CLASS(ADuckHuntGameModeBase, 1052704416);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ADuckHuntGameModeBase(Z_Construct_UClass_ADuckHuntGameModeBase, &ADuckHuntGameModeBase::StaticClass, TEXT("/Script/DuckHunt"), TEXT("ADuckHuntGameModeBase"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ADuckHuntGameModeBase);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

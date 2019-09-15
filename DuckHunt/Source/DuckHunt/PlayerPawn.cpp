@@ -55,17 +55,14 @@ void APlayerPawn::LookUp(float a_val)
 
 void APlayerPawn::Interact()
 {
-	if (HighlightedDuck != nullptr)
-		HighlightedDuck->Destroy();
+	bShot = true;
+	fShotTimer = .1f;
 }
 
 // Called every frame
 void APlayerPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	HighlightedDuck = nullptr;
-
 	if (fShotTimer <= 0.0f)
 	{
 		bShot = false;
@@ -79,13 +76,18 @@ void APlayerPawn::Tick(float DeltaTime)
 	if (ComponentTraceForward(OutHit))
 	{
 		ShotMarker->SetWorldLocation(OutHit.Location);
-		HighlightedDuck = Cast<ADuck>(OutHit.Actor);
+		if (Cast<ADuck>(OutHit.Actor))
+		{
+			if (bShot)
+			{
+				Cast<ADuck>(OutHit.Actor)->Destroy();
+			}
+		}
 	}
 	else
 	{
 		FVector rayLoc = Camera->GetComponentLocation() + (GetActorForwardVector() * 3000);
 		ShotMarker->SetWorldLocation(rayLoc);
-		HighlightedDuck = nullptr;
 	}
 }
 
@@ -93,8 +95,7 @@ bool APlayerPawn::ComponentTraceForward(FHitResult & OutHit)
 {
 	FVector camLoc = Camera->GetComponentLocation();
 	FVector rayLoc = camLoc + (GetActorForwardVector() * 3000);
-	//GetWorld()->LineTraceSingleByObjectType(OutHit, camLoc, rayLoc);
-	return GetWorld()->LineTraceSingleByChannel(OutHit, camLoc, rayLoc, ECC_Visibility);
+	return GetWorld()->LineTraceSingleByChannel(OutHit,camLoc, rayLoc, ECC_Visibility);
 }
 
 // Called to bind functionality to input
