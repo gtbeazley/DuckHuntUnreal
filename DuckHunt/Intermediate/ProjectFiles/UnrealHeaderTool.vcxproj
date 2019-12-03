@@ -10,6 +10,14 @@
 			<Configuration>Development_Program</Configuration>
 			<Platform>x64</Platform>
 		</ProjectConfiguration>
+		<ProjectConfiguration Include="Android_Development_Program|Win32">
+			<Configuration>Android_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Android_Development_Program|x64">
+			<Configuration>Android_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
 		<ProjectConfiguration Include="HTML5_Development_Program|Win32">
 			<Configuration>HTML5_Development_Program</Configuration>
 			<Platform>Win32</Platform>
@@ -20,7 +28,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{75023A38-B4CE-4BA7-89C9-50BB30C4EEC1}</ProjectGuid>
+		<ProjectGuid>{40DF761D-2663-4AB5-ADD4-BCFDE1ED155D}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>UnrealHeaderTool</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>
@@ -37,6 +45,14 @@
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Program|x64'" Label="Configuration">
 		<ConfigurationType>Makefile</ConfigurationType>
 		<PlatformToolset>v141</PlatformToolset>
 	</PropertyGroup>
@@ -63,9 +79,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Build.bat" UnrealHeaderTool Win32 Development -WaitMutex -FromMsBuild -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat" UnrealHeaderTool Win32 Development -WaitMutex -FromMsBuild -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat" UnrealHeaderTool Win32 Development -WaitMutex -FromMsBuild -2017</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Build.bat" UnrealHeaderTool Win32 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat" UnrealHeaderTool Win32 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat" UnrealHeaderTool Win32 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\Win32\UnrealHeaderTool.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
@@ -80,10 +96,21 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Build.bat" UnrealHeaderTool Win64 Development -WaitMutex -FromMsBuild -2017</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat" UnrealHeaderTool Win64 Development -WaitMutex -FromMsBuild -2017</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat" UnrealHeaderTool Win64 Development -WaitMutex -FromMsBuild -2017</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Build.bat" UnrealHeaderTool Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat" UnrealHeaderTool Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat" UnrealHeaderTool Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
 		<NMakeOutput>C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\Win64\UnrealHeaderTool.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Program|Win32'">
+		<OutDir>C:\Program Files\Epic Games\UE_4.20\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>C:\Program Files\Epic Games\UE_4.20\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo Android is not a supported platform for UnrealHeaderTool. Valid platforms are Win32, Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo Android is not a supported platform for UnrealHeaderTool. Valid platforms are Win32, Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo Android is not a supported platform for UnrealHeaderTool. Valid platforms are Win32, Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />

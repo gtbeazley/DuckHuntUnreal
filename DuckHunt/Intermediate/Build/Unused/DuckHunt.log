@@ -1,9 +1,28 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Building 3 actions with 8 processes...
-    [1/3] PlayerHUD.cpp
-    [2/3] UE4Editor-DuckHunt.lib
-       Creating library C:\Users\s181813\Documents\GitHub\DuckHuntUnreal\DuckHunt\Intermediate\Build\Win64\UE4Editor\Development\DuckHunt\UE4Editor-DuckHunt.lib and object C:\Users\s181813\Documents\GitHub\DuckHuntUnreal\DuckHunt\Intermediate\Build\Win64\UE4Editor\Development\DuckHunt\UE4Editor-DuckHunt.exp
-    [3/3] UE4Editor-DuckHunt.dll
-       Creating library C:\Users\s181813\Documents\GitHub\DuckHuntUnreal\DuckHunt\Intermediate\Build\Win64\UE4Editor\Development\DuckHunt\UE4Editor-DuckHunt.suppressed.lib and object C:\Users\s181813\Documents\GitHub\DuckHuntUnreal\DuckHunt\Intermediate\Build\Win64\UE4Editor\Development\DuckHunt\UE4Editor-DuckHunt.suppressed.exp
+  Creating makefile for DuckHuntEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for DuckHuntEditor
+    Running UnrealHeaderTool "C:\Users\S181813\Documents\GitHub\DuckHuntUnreal\DuckHunt\DuckHunt.uproject" "C:\Users\S181813\Documents\GitHub\DuckHuntUnreal\DuckHunt\Intermediate\Build\Win64\DuckHuntEditor\Development\DuckHuntEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for DuckHuntEditor in 8.9265057 seconds
+  Building 16 actions with 8 processes...
+    [1/16] PCLaunch.rc
+    [2/16] SharedPCH.Engine.cpp
+    [3/16] DuckHunt.cpp
+    [4/16] DuckHunt.init.gen.cpp
+    [5/16] AIPathNode.gen.cpp
+    [6/16] Duck.gen.cpp
+    [7/16] PlayerHUD.cpp
+    [8/16] DuckHuntGameModeBase.cpp
+    [9/16] PlayerPawn.cpp
+    [10/16] Duck.cpp
+    [11/16] AIPathNode.cpp
+    [12/16] PlayerHUD.gen.cpp
+    [13/16] DuckHuntGameModeBase.gen.cpp
+    [14/16] PlayerPawn.gen.cpp
+    [15/16] UE4Editor-DuckHunt.lib
+       Creating library C:\Users\S181813\Documents\GitHub\DuckHuntUnreal\DuckHunt\Intermediate\Build\Win64\UE4Editor\Development\DuckHunt\UE4Editor-DuckHunt.lib and object C:\Users\S181813\Documents\GitHub\DuckHuntUnreal\DuckHunt\Intermediate\Build\Win64\UE4Editor\Development\DuckHunt\UE4Editor-DuckHunt.exp
+    [16/16] UE4Editor-DuckHunt.dll
+       Creating library C:\Users\S181813\Documents\GitHub\DuckHuntUnreal\DuckHunt\Intermediate\Build\Win64\UE4Editor\Development\DuckHunt\UE4Editor-DuckHunt.suppressed.lib and object C:\Users\S181813\Documents\GitHub\DuckHuntUnreal\DuckHunt\Intermediate\Build\Win64\UE4Editor\Development\DuckHunt\UE4Editor-DuckHunt.suppressed.exp
   Deploying DuckHuntEditor Win64 Development...
-  Total build time: 2.67 seconds (Parallel executor: 1.36 seconds)
+  Total build time: 66.77 seconds (Parallel executor: 21.82 seconds)
